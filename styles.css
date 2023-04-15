@@ -1,0 +1,64 @@
+svg {
+    pointer-events: none;
+    padding: 0.5em;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    margin: 1em;
+    background-color: white;
+    border: none;
+}
+
+.btn-rock {
+    background-image: url(assets/rockIcon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.btn-paper {
+    background-image: url(assets/blackwhitepaperstack.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.btn-scissors {
+    background-image: url(assets/scissorsIcon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.container-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-vertical {
+    text-align: center;
+}
+
+.table {
+    margin: auto;
+}
+
+.results {
+    padding: 1.5em;
+}
+
+.disabled {
+    opacity: 0.6;
+}
+
+.reset {
+    background-color: greenyellow;
+    border: black solid 2px;
+    border-radius: 1em;
+    margin: 1em auto 1em auto;
+    padding: 1em 5em 1em 5em;
+}
